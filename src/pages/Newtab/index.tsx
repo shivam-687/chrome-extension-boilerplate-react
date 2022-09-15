@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
+import '../../assets/styles/tailwind.css';
 
 import Newtab from './Newtab';
 import './index.css';

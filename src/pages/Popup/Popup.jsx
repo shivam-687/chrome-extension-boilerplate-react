@@ -1,25 +1,12 @@
 import React from 'react';
-import logo from '../../assets/img/logo.svg';
-import Greetings from '../../containers/Greetings/Greetings';
 import './Popup.css';
 
 const Popup = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/pages/Popup/Popup.jsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React!
-        </a>
-      </header>
+    <div className='tbm-popup p-5 h-full absolute w-full top-0 left-0'>
+      <div className="rounded-xl bg-slate-100 flex items-center justify-center w-full h-full">
+        <h1 className='text-4xl font-bold text-center'>Enjoy <span className="text-primary uppercase">TabMarker</span> Extension</h1>
+      </div>
     </div>
   );
 };
